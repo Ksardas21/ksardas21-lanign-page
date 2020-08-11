@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <title>Guitars Landing Page</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="header-img" src="https://image.flaticon.com/icons/svg/444/444289.svg">
+            <span class="title">
+                Gordon's
+            </span>
+        </div>
+        <nav class="nav-bar">
+            <a class="nav-link" href="#how-it-sounds">
+                How it sounds
+            </a>
+            <a class="nav-link" href="#pricing">
+                Pricing
+            </a>
+            <a class="nav-link" href="#custom-product">
+                Custom
+            </a>            
+        </nav>
+    </header>
+    <main>
+        <h1 class="welcome">
+            Gordon's Handcrafted, home-made masterpieces
+        </h1>
+        <section class="offers">
+            <div class="descriptions">
+                <img src="https://image.flaticon.com/icons/svg/2670/2670424.svg">
+                <div class="text-description">
+                    <h2>
+                        Premium Materials
+                    </h2>
+                    <p>
+                        Our Guitars use the strongest wood which is sourced locally. This will increase the longevity of your instrument.
+                    </p>
+                </div>
+            </div>
+            <div class="descriptions">
+                <img src="https://image.flaticon.com/icons/svg/679/679821.svg">
+                <div class="text-description">
+                    <h2>
+                        Fast Shipping
+                    </h2>
+                    <p>
+                        We make sure you recieve your Guitar as soon as we have finished making it. We also provide free returns if you are not satisfied.
+                    </p>
+                </div>
+            </div>
+            <div class="descriptions">
+                <img src="https://image.flaticon.com/icons/svg/411/411728.svg">
+                <div class="text-description">
+                    <h2>
+                        Quality Assurance
+                    </h2>
+                    <p>
+                        For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="how-it-sounds">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YnU2kGGyalE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="select-product">
+            Sellect a guitar which you want to buy
+         </p>
+        <div class="pricing" id="pricing">
+            <div class="product">
+                <h2 class="product-name" id="custom-m1">
+                    Gordon's <br>Standard M1
+                </h2>
+                <ol class="product-description">
+                    <li>Material: Oak</li>
+                    <li>Pickguard: Standard</li>
+                    <li>Body Shape: Dreadnaught</li>
+                    <li>Frets: 20</li>
+                </ol>
+                <h3>
+                    300$
+                </h3>
+                <button class="submit-offer" type="submit">Select</button>
+            </div>
+            <div class="product">
+                <h2 class="product-name">
+                    Gordon's Hummingbird M11
+                </h2>
+                <ol class="product-description">
+                    <li>Material: Red wood</li>
+                    <li>Pickguard: Hummingbird</li>
+                    <li>Body Shape: Hummingbird</li>
+                    <li>Frets: 20</li>
+                </ol>
+                <h3>
+                    600$
+                </h3>
+                <button class="submit-offer" type="submit">Select</button>
+            </div>
+            <div class="product">
+                <h2 class="product-name">
+                    Gordon's Parlor Avant Garde M21
+                </h2>
+                <ol class="product-description">
+                    <li>Material: Rosewood</li>
+                    <li>Pickguard: Avant Garde</li>
+                    <li>Body Shape: Small Body</li>
+                    <li>Frets: 21</li>
+                </ol>
+                <h3>
+                    900$
+                </h3>
+                <button class="submit-offer" type="submit">Select</button>
+            </div>
+            <div class="product">
+                <h2 class="product-name">
+                    Gordon's <br>Songwriter M31
+                </h2>
+                <ol class="product-description">
+                    <li>Material: Mahogany</li>
+                    <li>Pickguard: Modern</li>
+                    <li>Body Shape: Songwriter</li>
+                    <li>Frets: 22</li>
+                </ol>
+                <h3>
+                    1200$
+                </h3>
+                <button class="submit-offer" type="submit">Select</button>
+            </div>
+        </div>
+        <div id="custom-product">
+            <h2>
+                Order a Custom Guitar
+            </h2>
+            <p>
+                To make a custom order, you have to enter your Email
+            </p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" class="email" type="email" placeholder="Enter your email address" required/><br>
+                <input class="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </div>
+    </main>
+    <footer>
+        <nav class="footer-nav">
+            <a href="#Privacy">
+                Privacy
+            </a>
+            <a href="#Tearms">
+                Tearms
+            </a>
+            <a href="#Contacts">
+                Contacts
+            </a>
+        </nav>
+        <p>Copyright 2020, Gordon's</p>
+    </footer>
+</body>
+</html>
